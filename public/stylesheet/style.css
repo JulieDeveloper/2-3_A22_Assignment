@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 32px;
+  padding: 10px;
+  border: 3px solid #808080;
+  color: #808080;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.nav-list .nav-link:nth-child(even) {
+  margin: 0 20px;
+}

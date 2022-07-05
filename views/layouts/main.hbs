@@ -6,21 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Express 基礎驗收</title>
+  <link rel="stylesheet" href="/stylesheet/style.css">
 </head>
 
 <body>
   <nav class="navbar">
-    <div class="container">
-      <a class="back-to-home-link" href="/">回到首頁</a>
+    <div class="container nav-container">
+      <a class="nav-link" href="/">回到首頁</a>
       <div class="nav-list">
-        <a class="nav-link" href="/about">About</a>
-        <a class="nav-link" href="/portfolio">Portfolio</a>
-        <a class="nav-link" href="/contact">Contact</a>
+        <a class="nav-link" href="/About">About</a>
+        <a class="nav-link" href="/Portfolio">Portfolio</a>
+        <a class="nav-link" href="/Contact">Contact</a>
       </div>
     </div>
   </nav>
   <main>
-    {{{body}}}
+    <div class="container">
+      {{{body}}}
+    </div>
   </main>
 </body>
 
